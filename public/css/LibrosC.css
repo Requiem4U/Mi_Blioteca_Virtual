@@ -1,0 +1,161 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url(../Img/biblioteca.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 100vh;
+}
+
+.reporte_Usuario h1 {
+  font-size: 40px;
+  color: white;
+  text-align: center;
+  font-family: 'calibri';
+}
+
+.titulo {
+  width: 600px;
+  background-color: #4C3C96;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 4px;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.reporte {
+  width: 1100px;
+  height: 300px;
+  background-color: white;
+  padding: 250px;
+  margin: auto;
+  margin-top: 10px;
+  border-radius: 4px;
+}
+
+#botones-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+
+.boton {
+  background-image: url(../Img/archivo4.5.png);
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #FAC45F;
+  border: none;
+  border-radius: 5px;
+  font-size: 20px;
+  text-align: right;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top left;
+  color: #ffffff;
+  width: 180px;
+  height: 50px;
+}
+
+.boton:hover {
+  background-color: #FBD794;
+}
+
+.ventana {
+  display: none;
+  /* Oculta la ventana emergente por defecto */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  /* Fondo semitransparente */
+  z-index: 9999;
+  /* Capa superior */
+}
+
+.contenido {
+  width: 500px;
+  background-color: white;
+  padding: 30px;
+  margin: auto;
+  margin-top: 100px;
+  border-radius: 4px;
+  font-family: 'calibri';
+  color: black;
+  box-shadow: 7px 13px 37px #000;
+}
+
+.mi-boton {
+  padding: 10px 20px;
+  margin: 10px;
+  background-color: #4C3C96;
+  border: none;
+  border-radius: 5px;
+  font-size: 15px;
+  text-align: center;
+  background-position: right;
+  color: #ffffff;
+  width: 180px;
+  height: 50px;
+}
+
+.mi-boton:hover {
+  background-color: #C3BEDC;
+}
+
+.Escoger {
+  display: inline-block;
+  position: relative;
+}
+
+.Escoger:hover {
+  background-color: #C3BEDC;
+}
+
+
+.Escoger div {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+input[type="file"] {
+  position: absolute;
+  left: 0;
+  opacity: 0;
+  top: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.cerrar {
+  position: absolute;
+  top: 120px;
+  right: 450px;
+}
+
+
+.datos {
+  width: 200px;
+  background: white;
+  padding: 10px;
+  border-radius: 4px;
+  margin-bottom: 16px;
+  border: 1px solid #4C3C96;
+  font-family: 'calibri';
+  font-size: 18px;
+  color: black;
+}
+
+.contenido h4 {
+  font-size: 25px;
+  margin-bottom: 20px;
+  color: #4C3C96;
+}

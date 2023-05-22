@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi biblioteca virtual_Registro</title>
+    <link rel="shortcut icon" href="Img/libro.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/ingresarC.css">
+</head>
+
+<body>
+    <section class="Registro">
+        <h4>Registro</h4>
+        <input class="datos" type="text" name="nombre" id="nombre" placeholder="Ingrese su nombre completo">
+        <input class="datos" type="text" name="correo" id="correo" placeholder="Ingrese su correo institucional ">
+        <input class="datos" type="password" name="contraseña" id="contraseña" placeholder="Ingrese su contraseña ">
+
+        <div id="selec_container">
+            <label for="tiposUsuario">Soy </label>
+            <div id="tipoUsuario">
+                <input type="radio" id="alumno" name="usuario" value="alumno" >
+                <label for="alumno">Alumno</label>
+                <input type="radio" id="profesor" name="usuario" value="profesor">
+                <label for="profesor">Profesor</label>
+            </div>
+
+        </div>
+
+        <a>
+            <input id="registrarUsuario" class=boton1 type="submit" value="Registrarse">
+            <p id="mensajeRegistro">
+        </a>
+
+    </section>
+</body>
+
+<script src="scripts/registrarUsuario.js"></script>
+
+</html>

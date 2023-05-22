@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi biblioteca virtual_unidad 2</title>
+    <link rel="shortcut icon" href="Img/libro.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/LibrosC.css">
+</head>
+
+<body>
+    <section class="reporte_Usuario">
+        <section class="titulo">
+            <h1>Documentos disponibles</h1>
+            <div id="botones-container">
+                <button class="boton" style="margin: 0 auto;" onclick="mostrarVentana()">Cargar libro</button>
+            </div>
+        </section>
+        <div id="reporte-container">
+            <section class="reporte" id="contenedorMaterias">
+
+            </section>
+
+        </div>
+        <div id="ventanaEmergente" class="ventana">
+            <div class="contenido">
+                <h4>Cargar archivo</h4>
+                <input class="datos" type="text" name="nombre" id="nombreArchivo" placeholder="Nombre del archivo">
+                <input class="datos" type="text" name="materia" id="materiaLibro" placeholder="Ingrese la materia">
+                <button class="mi-boton Escoger">
+                    <div>Buscar PDF</div>
+                    <input type="file" id="selecionPDF" accept=".pdf">
+                </button>
+                <button class="mi-boton" id="subirArchivo">Subir Documento</button>
+                <div class="cerrar">
+                    <button onclick="cerrarVentana()">Cerrar</button>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+<script src="scripts/manejadorMenuProfresor.js"></script>
+
+</html>
